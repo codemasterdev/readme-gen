@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "readme-generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codemasterdev/readme-gen.git"
+  },
+  "author": "Devon Webster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codemasterdev/readme-gen/issues"
+  },
+  "homepage": "https://github.com/codemasterdev/readme-gen#readme",
+  "dependencies": {
+    "inquirer": "^8.1.5"
+  }
+}
