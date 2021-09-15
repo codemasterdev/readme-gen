@@ -12,7 +12,7 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'githubUsername',
+            name: 'githubName',
             message: "what is your github username ?",
         },
         {
@@ -23,11 +23,46 @@ const questions = () => {
         {
             type: 'input',
             name: 'email',
-            message: "what is your email address ?",
+            message: "email address:",
         },
-    ])
+        {
+            type: 'input',
+            name: 'description',
+            message: "description:",
+        },
+        {
+            type: 'input',
+            name: 'installInstructions',
+            message: "Install instructions ?",
+        },
+        {
+            type: 'input',
+            name: 'usageInfo',
+            message: "usage info",
+        },
+        {
+            type: 'input',
+            name: 'constributionGuideines',
+            message: "contribution guidelines",
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: "tests",
+        },
+        {
+            type: 'input',
+            name: 'questions',
+            message: "questions",
+        },
+        {
+            type: 'list',
+            name: 'licence',
+            message: "what license did you use",
+            choices: ['MIT License', 'GPL License', 'Apache License', 'GNU License', 'N/A']
+        },
+    ]).then()
 }
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) { }
 
