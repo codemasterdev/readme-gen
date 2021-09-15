@@ -1,6 +1,10 @@
-// TODO: Include packages needed for this application
+//import fs module
 const fs = require('fs');
+//import inquirer module
 const inquirer = require('inquirer');
+
+// get command line arg as file content
+const args = process.argv.slice(2);
 
 // TODO: Create an array of questions for user input
 const questions = () => {
